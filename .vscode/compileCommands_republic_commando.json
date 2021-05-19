@@ -1,0 +1,27 @@
+[
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\republic_commando.Build.cs",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\republic_commando.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\republic_commando.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\republic_commandoGameModeBase.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\republic_commandoGameModeBase.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	}
+]

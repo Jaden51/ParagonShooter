@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "republic_commandoEditor Editor Win64 Development (republic_commando)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
