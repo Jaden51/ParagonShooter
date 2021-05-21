@@ -1,6 +1,5 @@
-
-
 #include "Wraith.h"
+#include "Blaster.h"
 
 // Sets default values
 AWraith::AWraith()
@@ -13,6 +12,8 @@ AWraith::AWraith()
 void AWraith::BeginPlay()
 {
 	Super::BeginPlay();
+
+	Blaster = GetWorld()->SpawnActor<ABlaster>(BlasterClass);
 }
 
 // Called every frame

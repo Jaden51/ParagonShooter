@@ -1,5 +1,15 @@
 [
 	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\Blaster.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\Blaster.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
 		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\republic_commando.Build.cs",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"

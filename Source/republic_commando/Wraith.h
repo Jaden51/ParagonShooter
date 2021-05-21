@@ -1,10 +1,10 @@
-
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Wraith.generated.h"
+
+class ABlaster;
 
 UCLASS()
 class REPUBLIC_COMMANDO_API AWraith : public ACharacter
@@ -31,4 +31,10 @@ private:
 	void LookUp(float AxisValue);
 	void MoveSide(float AxisValue);
 	void LookSide(float AxisValue);
+
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<ABlaster> BlasterClass;
+
+	UPROPERTY()
+	ABlaster* Blaster;
 };
