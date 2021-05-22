@@ -4,8 +4,6 @@
 #include "GameFramework/Character.h"
 #include "Wraith.generated.h"
 
-class ABlaster;
-
 UCLASS()
 class REPUBLIC_COMMANDO_API AWraith : public ACharacter
 {

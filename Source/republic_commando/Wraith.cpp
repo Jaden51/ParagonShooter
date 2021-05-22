@@ -1,5 +1,4 @@
 #include "Wraith.h"
-#include "Blaster.h"
 #include "Kismet/GameplayStatics.h"
 
 // Sets default values
