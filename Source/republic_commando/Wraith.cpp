@@ -1,5 +1,6 @@
 #include "Wraith.h"
 #include "Blaster.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AWraith::AWraith()
@@ -12,11 +13,6 @@ AWraith::AWraith()
 void AWraith::BeginPlay()
 {
 	Super::BeginPlay();
-
-	Blaster = GetWorld()->SpawnActor<ABlaster>(BlasterClass);
-	GetMesh()->HideBoneByName(TEXT("weapon_r"), EPhysBodyOp::PBO_None);
-	Blaster->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("WeaponSocket"));
-	Blaster->SetOwner(this);
 }
 
 // Called every frame
@@ -61,5 +57,23 @@ void AWraith::LookSide(float AxisValue)
 
 void AWraith::Shoot()
 {
-	Blaster->PullTrigger();
+	UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GetMesh(), TEXT("Muzzle_01"));
+
+	AController *OwnerController = GetController();
+	if (OwnerController == nullptr)
+		return;
+
+	FVector Location;
+	FRotator Rotation;
+	OwnerController->GetPlayerViewPoint(Location, Rotation);
+
+	FVector End = Location + Rotation.Vector() * MaxRange;
+
+	FHitResult Hit;
+	bool Success = GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECollisionChannel::ECC_GameTraceChannel1);
+
+	if (Success)
+	{
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BulletHit, Hit.Location, Rotation * -1);
+	}
 }

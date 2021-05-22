@@ -33,9 +33,12 @@ private:
 	void LookSide(float AxisValue);
 	void Shoot();
 
-	UPROPERTY(EditDefaultsOnly)
-	TSubclassOf<ABlaster> BlasterClass;
+	UPROPERTY(EditAnywhere)
+	UParticleSystem* MuzzleFlash;
 
-	UPROPERTY()
-	ABlaster* Blaster;
+	UPROPERTY(EditAnywhere)
+	UParticleSystem* BulletHit;
+
+	UPROPERTY(EditAnywhere)
+	float MaxRange = 100000;
 };
