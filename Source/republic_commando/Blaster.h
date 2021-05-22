@@ -32,6 +32,8 @@ private:
 	UPROPERTY(EditAnywhere)
 	UParticleSystem* MuzzleFlash;
 
+	// test
+
 	UPROPERTY(EditAnywhere)
 	UParticleSystem* BulletHit;
 
