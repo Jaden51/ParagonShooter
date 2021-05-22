@@ -12,6 +12,7 @@ class REPUBLIC_COMMANDO_API ABlaster : public AActor
 public:
 	// Sets default values for this actor's properties
 	ABlaster();
+	void PullTrigger();
 
 protected:
 	// Called when the game starts or when spawned
@@ -23,8 +24,19 @@ public:
 
 private:
 	UPROPERTY(VisibleAnywhere)
-	USceneComponent* Root;
+	USceneComponent *Root;
 
 	UPROPERTY(VisibleAnywhere);
-	USkeletalMeshComponent* Mesh;
+	USkeletalMeshComponent *Mesh;
+
+	//test
+
+	UPROPERTY(EditAnywhere)
+	UParticleSystem* MuzzleFlash;
+
+	UPROPERTY(EditAnywhere)
+	UParticleSystem* BulletHit;
+
+	UPROPERTY(EditAnywhere)
+	float MaxRange = 100000;
 };

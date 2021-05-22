@@ -14,6 +14,9 @@ void AWraith::BeginPlay()
 	Super::BeginPlay();
 
 	Blaster = GetWorld()->SpawnActor<ABlaster>(BlasterClass);
+	GetMesh()->HideBoneByName(TEXT("weapon_r"), EPhysBodyOp::PBO_None);
+	Blaster->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("WeaponSocket"));
+	Blaster->SetOwner(this);
 }
 
 // Called every frame
@@ -31,7 +34,9 @@ void AWraith::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
 	PlayerInputComponent->BindAxis(TEXT("MoveSide"), this, &AWraith::MoveSide);
 	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &AWraith::LookUp);
 	PlayerInputComponent->BindAxis(TEXT("LookSide"), this, &AWraith::LookSide);
-	PlayerInputComponent->BindAction(TEXT("JUMP"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
+
+	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction(TEXT("Shoot"), EInputEvent::IE_Pressed, this, &AWraith::Shoot);
 }
 
 void AWraith::MoveForward(float AxisValue)
@@ -52,4 +57,9 @@ void AWraith::LookUp(float AxisValue)
 void AWraith::LookSide(float AxisValue)
 {
 	AddControllerYawInput(AxisValue);
+}
+
+void AWraith::Shoot()
+{
+	Blaster->PullTrigger();
 }

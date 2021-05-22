@@ -31,6 +31,7 @@ private:
 	void LookUp(float AxisValue);
 	void MoveSide(float AxisValue);
 	void LookSide(float AxisValue);
+	void Shoot();
 
 	UPROPERTY(EditDefaultsOnly)
 	TSubclassOf<ABlaster> BlasterClass;
