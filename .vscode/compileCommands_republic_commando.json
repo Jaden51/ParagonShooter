@@ -1,5 +1,55 @@
 [
 	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\AIControl.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\AIControl.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTServicePlayerLocation.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTServicePlayerLocation.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTServicePlayerLocationIfSeen.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTServicePlayerLocationIfSeen.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTTaskShoot.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTTaskShoot.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTTTaskClearBlackBoardValue.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTTTaskClearBlackBoardValue.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
 		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\republic_commando.Build.cs",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
