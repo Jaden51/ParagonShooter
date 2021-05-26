@@ -1,5 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -13,5 +11,8 @@ UCLASS()
 class REPUBLIC_COMMANDO_API Arepublic_commandoGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+
+public:
+	void PawnKilled(APawn* PawnKilled);
 	
 };
