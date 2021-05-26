@@ -1,51 +1,61 @@
 [
 	{
-		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\AIControl.cpp",
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\AI\\\\AIControl.cpp",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\AIControl.h",
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\AI\\\\AIControl.h",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTServicePlayerLocation.cpp",
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\AI\\\\BTServicePlayerLocation.cpp",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTServicePlayerLocation.h",
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\AI\\\\BTServicePlayerLocation.h",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTServicePlayerLocationIfSeen.cpp",
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\AI\\\\BTServicePlayerLocationIfSeen.cpp",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTServicePlayerLocationIfSeen.h",
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\AI\\\\BTServicePlayerLocationIfSeen.h",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTTaskShoot.cpp",
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskShoot.cpp",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTTaskShoot.h",
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskShoot.h",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTTTaskClearBlackBoardValue.cpp",
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\AI\\\\BTTTaskClearBlackBoardValue.cpp",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\BTTTaskClearBlackBoardValue.h",
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\AI\\\\BTTTaskClearBlackBoardValue.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\Characters\\\\Wraith.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\Characters\\\\Wraith.h",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
@@ -71,16 +81,6 @@
 	},
 	{
 		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\republic_commandoGameModeBase.h",
-		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
-		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
-	},
-	{
-		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\Wraith.cpp",
-		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
-		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
-	},
-	{
-		"file": "D:\\\\coding-projects\\\\C++\\\\republic_commando\\\\Source\\\\republic_commando\\\\Wraith.h",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	}

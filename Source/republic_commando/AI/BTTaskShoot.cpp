@@ -1,6 +1,6 @@
 #include "BTTaskShoot.h"
 #include "AIController.h"
-#include "Wraith.h"
+#include "../Characters/Wraith.h"
 
 UBTTaskShoot::UBTTaskShoot()
 {
