@@ -1,16 +1,16 @@
 {
     "configurations": [
         {
-            "name": "republic_commandoEditor Editor Win64 Development (republic_commando)",
+            "name": "ParagonShooterEditor Editor Win64 Development (ParagonShooter)",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_republic_commando.json",
+            "compileCommands": "D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter.json",
             "cStandard": "c17",
             "cppStandard": "c++17"
         },
         {
             "name": "Win32",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "D:\\coding-projects\\C++\\republic_commando\\.vscode\\compileCommands_Default.json",
+            "compileCommands": "D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_Default.json",
             "cStandard": "c17",
             "cppStandard": "c++17"
         }
