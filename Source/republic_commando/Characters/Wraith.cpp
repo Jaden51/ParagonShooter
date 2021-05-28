@@ -72,7 +72,7 @@ void AWraith::Shoot()
 	if (GunTrace(Hit, Rotation))
 	{
 		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BulletHit, Hit.Location, Rotation * -1);
-		UGameplayStatics::PlaySoundAtLocation(GetWorld(), ImpactSound, Hit.Location, Rotation * -1);
+		UGameplayStatics::PlaySoundAtLocation(GetWorld(), ImpactSound, Hit.Location);
 
 		if (Hit.GetActor() != nullptr)
 		{
@@ -126,4 +126,9 @@ bool AWraith::GunTrace(FHitResult &Hit, FRotator &Rotation)
 	Params.AddIgnoredActor(this);
 
 	return GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECollisionChannel::ECC_GameTraceChannel1, Params);
+}
+
+float AWraith::GetHealthPercent() const
+{
+	return Health / MaxHealth;
 }

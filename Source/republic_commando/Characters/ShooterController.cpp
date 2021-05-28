@@ -2,9 +2,22 @@
 #include "TimerManager.h"
 #include "Blueprint/UserWidget.h"
 
+void AShooterController::BeginPlay()
+{
+    Super::BeginPlay();
+
+    HUD = CreateWidget(this, HUDClass);
+    if (HUD != nullptr)
+    {
+        HUD->AddToViewport();
+    }
+}
+
 void AShooterController::GameHasEnded(class AActor *EndGameFocus, bool bIsWinner)
 {
     Super::GameHasEnded(EndGameFocus, bIsWinner);
+
+    HUD->RemoveFromViewport();
 
     if (bIsWinner)
     {

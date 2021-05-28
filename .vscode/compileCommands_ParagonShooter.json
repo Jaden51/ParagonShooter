@@ -30,22 +30,22 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
+		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskClearBlackBoardValue.cpp",
+		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskClearBlackBoardValue.h",
+		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
 		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskShoot.cpp",
 		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
 		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskShoot.h",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
-		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
-	},
-	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTTaskClearBlackBoardValue.cpp",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
-		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
-	},
-	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTTaskClearBlackBoardValue.h",
 		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
