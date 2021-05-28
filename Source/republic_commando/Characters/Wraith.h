@@ -41,7 +41,13 @@ private:
 	UParticleSystem *MuzzleFlash;
 
 	UPROPERTY(EditAnywhere)
+	USoundBase *MuzzleSound;
+
+	UPROPERTY(EditAnywhere)
 	UParticleSystem *BulletHit;
+
+	UPROPERTY(EditAnywhere)
+	USoundBase *ImpactSound;
 
 	UPROPERTY(EditAnywhere)
 	float MaxRange = 100000;
@@ -57,4 +63,6 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	bool Dead = false;
+
+	bool GunTrace(FHitResult &Hit, FRotator &Rotation);
 };

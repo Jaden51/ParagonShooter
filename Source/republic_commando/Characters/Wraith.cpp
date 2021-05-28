@@ -61,31 +61,23 @@ void AWraith::LookSide(float AxisValue)
 void AWraith::Shoot()
 {
 	UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GetMesh(), TEXT("Muzzle_01"));
+	UGameplayStatics::SpawnSoundAttached(MuzzleSound, GetMesh(), TEXT("Muzzle_01"));
 
-	AController *OwnerController = GetController();
-	if (OwnerController == nullptr)
+	if (GetController() == nullptr)
 		return;
 
-	FVector Location;
-	FRotator Rotation;
-	OwnerController->GetPlayerViewPoint(Location, Rotation);
-
-	FVector End = Location + Rotation.Vector() * MaxRange;
 	FHitResult Hit;
+	FRotator Rotation;
 
-	FCollisionQueryParams Params;
-	Params.AddIgnoredActor(this);
-
-	bool Success = GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECollisionChannel::ECC_GameTraceChannel1, Params);
-
-	if (Success)
+	if (GunTrace(Hit, Rotation))
 	{
 		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BulletHit, Hit.Location, Rotation * -1);
+		UGameplayStatics::PlaySoundAtLocation(GetWorld(), ImpactSound, Hit.Location, Rotation * -1);
 
 		if (Hit.GetActor() != nullptr)
 		{
 			FPointDamageEvent DamageEvent(Damage, Hit, Rotation.Vector() * -1, nullptr);
-			Hit.GetActor()->TakeDamage(Damage, DamageEvent, OwnerController, this);
+			Hit.GetActor()->TakeDamage(Damage, DamageEvent, GetController(), this);
 		}
 	}
 }
@@ -121,4 +113,17 @@ float AWraith::TakeDamage(float DamageAmount, struct FDamageEvent const &DamageE
 bool AWraith::IsDead() const
 {
 	return Dead;
+}
+
+bool AWraith::GunTrace(FHitResult &Hit, FRotator &Rotation)
+{
+	FVector Location;
+	GetController()->GetPlayerViewPoint(Location, Rotation);
+
+	FVector End = Location + Rotation.Vector() * MaxRange;
+
+	FCollisionQueryParams Params;
+	Params.AddIgnoredActor(this);
+
+	return GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECollisionChannel::ECC_GameTraceChannel1, Params);
 }
