@@ -13,6 +13,6 @@ class REPUBLIC_COMMANDO_API Arepublic_commandoGameModeBase : public AGameModeBas
 	GENERATED_BODY()
 
 public:
-	void PawnKilled(APawn* PawnKilled);
+	virtual void PawnKilled(APawn* PawnKilled);
 	
 };

@@ -1,6 +1,7 @@
 #include "Wraith.h"
 #include "Kismet/GameplayStatics.h"
 #include "Components/CapsuleComponent.h"
+#include "../republic_commandoGameModeBase.h"
 
 // Sets default values
 AWraith::AWraith()
@@ -93,7 +94,7 @@ float AWraith::TakeDamage(float DamageAmount, struct FDamageEvent const &DamageE
 {
 	float DamageApplied = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
 
-	if (Health <= 0)
+	if (Health - DamageApplied <= 0)
 	{
 		Health = 0;
 		Dead = true;
@@ -103,8 +104,13 @@ float AWraith::TakeDamage(float DamageAmount, struct FDamageEvent const &DamageE
 		Health -= DamageApplied;
 	}
 
-	if (IsDead()) 
+	if (IsDead())
 	{
+		Arepublic_commandoGameModeBase *GameMode = GetWorld()->GetAuthGameMode<Arepublic_commandoGameModeBase>();
+		if (GameMode != nullptr)
+		{
+			GameMode->PawnKilled(this);
+		}
 		DetachFromControllerPendingDestroy();
 		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	}

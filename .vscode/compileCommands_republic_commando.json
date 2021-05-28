@@ -50,12 +50,32 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\ShooterController.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\ShooterController.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
 		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\Wraith.cpp",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
 		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\Wraith.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\GameModes\\\\KillAllGameMode.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\GameModes\\\\KillAllGameMode.h",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_republic_commando\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
