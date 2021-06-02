@@ -38,3 +38,8 @@ void AShooterController::GameHasEnded(class AActor *EndGameFocus, bool bIsWinner
 
     GetWorldTimerManager().SetTimer(RestartTimer, this, &APlayerController::RestartLevel, RestartDelay);
 }
+
+void AShooterController::RemoveHUD()
+{
+    HUD->RemoveFromParent();
+}

@@ -12,6 +12,8 @@ class REPUBLIC_COMMANDO_API AShooterController : public APlayerController
 public:
 	virtual void GameHasEnded(class AActor *EndGameFocus = nullptr, bool bIsWinner = false) override;
 
+	void RemoveHUD();
+
 protected:
 	virtual void BeginPlay() override;
 
@@ -28,7 +30,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<class UUserWidget> HUDClass;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere)
 	UUserWidget *HUD;
 
 	FTimerHandle RestartTimer;

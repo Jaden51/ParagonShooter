@@ -26,6 +26,8 @@ public:
 
 	void Shoot();
 
+	void Pause();
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -66,6 +68,12 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	bool Dead = false;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class UUserWidget> PauseMenuClass;
+
+	UPROPERTY(VisibleAnywhere)
+	UUserWidget *PauseMenu;
 
 	bool GunTrace(FHitResult &Hit, FRotator &Rotation);
 };

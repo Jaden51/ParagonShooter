@@ -103,5 +103,15 @@
 		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\republic_commandoGameModeBase.h",
 		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\UI\\\\PauseMenu.cpp",
+		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\UI\\\\PauseMenu.h",
+		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	}
 ]

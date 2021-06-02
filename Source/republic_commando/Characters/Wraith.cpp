@@ -1,6 +1,7 @@
 #include "Wraith.h"
 #include "Kismet/GameplayStatics.h"
 #include "Components/CapsuleComponent.h"
+#include "Blueprint/UserWidget.h"
 #include "../republic_commandoGameModeBase.h"
 
 // Sets default values
@@ -15,6 +16,9 @@ void AWraith::BeginPlay()
 {
 	Super::BeginPlay();
 
+	PauseMenu = CreateWidget(Cast<APlayerController>(GetController()), PauseMenuClass);
+	APlayerController *PlayerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
+	PlayerController->SetInputMode(FInputModeGameOnly());
 	Health = MaxHealth;
 }
 
@@ -36,6 +40,19 @@ void AWraith::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
 
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Shoot"), EInputEvent::IE_Pressed, this, &AWraith::Shoot);
+	PlayerInputComponent->BindAction(TEXT("Pause"), EInputEvent::IE_Pressed, this, &AWraith::Pause);
+}
+
+void AWraith::Pause()
+{
+	if (PauseMenu != nullptr)
+	{
+		APlayerController *PlayerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
+		PlayerController->SetShowMouseCursor(true);
+		PlayerController->SetInputMode(FInputModeUIOnly());
+		PauseMenu->AddToViewport();
+		UGameplayStatics::SetGamePaused(GetWorld(), true);
+	}
 }
 
 void AWraith::MoveForward(float AxisValue)
