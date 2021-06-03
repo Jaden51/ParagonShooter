@@ -10,7 +10,7 @@
         {
             "name": "Win32",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_Default.json",
+            "compileCommands": "D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_Default.json",
             "cStandard": "c17",
             "cppStandard": "c++17"
         }
