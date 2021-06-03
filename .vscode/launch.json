@@ -5,7 +5,7 @@
 			"name": "republic_commando (Debug)",
 			"request": "launch",
 			"preLaunchTask": "republic_commando Win64 Debug Build",
-			"program": "C:\\coding-projects-ssd\\ParagonShooter\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"program": "D:\\coding-projects\\C++\\ParagonShooter\\Binaries\\Win64\\UE4-Win64-Debug.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
@@ -18,7 +18,7 @@
 			"name": "republic_commando (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "republic_commando Win64 DebugGame Build",
-			"program": "C:\\coding-projects-ssd\\ParagonShooter\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"program": "D:\\coding-projects\\C++\\ParagonShooter\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
@@ -31,7 +31,7 @@
 			"name": "republic_commando (Development)",
 			"request": "launch",
 			"preLaunchTask": "republic_commando Win64 Development Build",
-			"program": "C:\\coding-projects-ssd\\ParagonShooter\\Binaries\\Win64\\UE4.exe",
+			"program": "D:\\coding-projects\\C++\\ParagonShooter\\Binaries\\Win64\\UE4.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
@@ -44,7 +44,7 @@
 			"name": "republic_commando (Shipping)",
 			"request": "launch",
 			"preLaunchTask": "republic_commando Win64 Shipping Build",
-			"program": "C:\\coding-projects-ssd\\ParagonShooter\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"program": "D:\\coding-projects\\C++\\ParagonShooter\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
@@ -57,7 +57,7 @@
 			"name": "republic_commando (Test)",
 			"request": "launch",
 			"preLaunchTask": "republic_commando Win64 Test Build",
-			"program": "C:\\coding-projects-ssd\\ParagonShooter\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"program": "D:\\coding-projects\\C++\\ParagonShooter\\Binaries\\Win64\\UE4-Win64-Test.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
@@ -72,7 +72,7 @@
 			"preLaunchTask": "republic_commandoEditor Win64 Debug Build",
 			"program": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
 			"args": [
-				"C:\\coding-projects-ssd\\ParagonShooter\\ParagonShooter.uproject"
+				"D:\\coding-projects\\C++\\ParagonShooter\\ParagonShooter.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
 			"stopAtEntry": false,
@@ -86,7 +86,7 @@
 			"preLaunchTask": "republic_commandoEditor Win64 DebugGame Build",
 			"program": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
 			"args": [
-				"C:\\coding-projects-ssd\\ParagonShooter\\ParagonShooter.uproject"
+				"D:\\coding-projects\\C++\\ParagonShooter\\ParagonShooter.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
 			"stopAtEntry": false,
@@ -100,7 +100,7 @@
 			"preLaunchTask": "republic_commandoEditor Win64 Development Build",
 			"program": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
 			"args": [
-				"C:\\coding-projects-ssd\\ParagonShooter\\ParagonShooter.uproject"
+				"D:\\coding-projects\\C++\\ParagonShooter\\ParagonShooter.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
 			"stopAtEntry": false,
@@ -117,7 +117,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=C:\\coding-projects-ssd\\ParagonShooter\\ParagonShooter.uproject",
+				"-project=D:\\coding-projects\\C++\\ParagonShooter\\ParagonShooter.uproject",
 				"-game",
 				"-engine"
 			],

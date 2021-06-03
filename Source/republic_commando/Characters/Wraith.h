@@ -5,7 +5,7 @@
 #include "Wraith.generated.h"
 
 UCLASS()
-class REPUBLIC_COMMANDO_API AWraith : public ACharacter
+class REPUBLIC_COMMANDO_API AWraith : public ACharacter : public Playable
 {
 	GENERATED_BODY()
 
@@ -36,12 +36,12 @@ public:
 
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const &DamageEvent, class AController *EventInstigator, AActor *DamageCauser) override;
 
-private:
 	void MoveForward(float AxisValue);
 	void LookUp(float AxisValue);
 	void MoveSide(float AxisValue);
 	void LookSide(float AxisValue);
 
+private:
 	UPROPERTY(EditAnywhere)
 	UParticleSystem *MuzzleFlash;
 

@@ -1,117 +1,117 @@
 [
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\AIControl.cpp",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\AIControl.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\AIControl.h",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\AIControl.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTServicePlayerLocation.cpp",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTServicePlayerLocation.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTServicePlayerLocation.h",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTServicePlayerLocation.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTServicePlayerLocationIfSeen.cpp",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTServicePlayerLocationIfSeen.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTServicePlayerLocationIfSeen.h",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTServicePlayerLocationIfSeen.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskClearBlackBoardValue.cpp",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskClearBlackBoardValue.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskClearBlackBoardValue.h",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskClearBlackBoardValue.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskShoot.cpp",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskShoot.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskShoot.h",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskShoot.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\ShooterController.cpp",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\ShooterController.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\ShooterController.h",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\ShooterController.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\Wraith.cpp",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\Wraith.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\Wraith.h",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\Wraith.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\GameModes\\\\KillAllGameMode.cpp",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\GameModes\\\\KillAllGameMode.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\GameModes\\\\KillAllGameMode.h",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\GameModes\\\\KillAllGameMode.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\republic_commando.Build.cs",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\republic_commando.Build.cs",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\republic_commando.cpp",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\republic_commando.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\republic_commando.h",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\republic_commando.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\republic_commandoGameModeBase.cpp",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\republic_commandoGameModeBase.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\republic_commandoGameModeBase.h",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\republic_commandoGameModeBase.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\UI\\\\PauseMenu.cpp",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\UI\\\\PauseMenu.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "C:\\\\coding-projects-ssd\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\UI\\\\PauseMenu.h",
-		"command": "cl.exe @\"C:\\coding-projects-ssd\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\UI\\\\PauseMenu.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	}
 ]
