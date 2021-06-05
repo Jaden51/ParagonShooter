@@ -50,6 +50,26 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\PlayableCharacter.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\PlayableCharacter.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\Revenant.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\Revenant.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
 		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\Characters\\\\ShooterController.cpp",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"

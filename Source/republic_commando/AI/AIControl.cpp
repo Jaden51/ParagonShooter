@@ -1,7 +1,7 @@
 #include "AIControl.h"
 #include "Kismet/GameplayStatics.h"
 #include "BehaviorTree/BlackboardComponent.h"
-#include "../Characters/Wraith.h"
+#include "../Characters/PlayableCharacter.h"
 
 void AAIControl::BeginPlay()
 {
@@ -23,7 +23,7 @@ void AAIControl::Tick(float DeltaSeconds)
 
 bool AAIControl::IsDead() const
 {
-    AWraith* ControlledCharacter = Cast<AWraith>(GetPawn());
+    APlayableCharacter* ControlledCharacter = Cast<APlayableCharacter>(GetPawn());
     if (ControlledCharacter != nullptr)
     {
         return ControlledCharacter->IsDead();

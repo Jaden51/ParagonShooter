@@ -1,6 +1,6 @@
 #include "BTTaskShoot.h"
 #include "AIController.h"
-#include "../Characters/Wraith.h"
+#include "../Characters/PlayableCharacter.h"
 
 UBTTaskShoot::UBTTaskShoot()
 {
@@ -16,7 +16,7 @@ EBTNodeResult::Type UBTTaskShoot::ExecuteTask(UBehaviorTreeComponent &OwnerComp,
         return EBTNodeResult::Failed;
     }
 
-    AWraith* Wraith = Cast<AWraith>(OwnerComp.GetAIOwner()->GetPawn());
+    APlayableCharacter* Wraith = Cast<APlayableCharacter>(OwnerComp.GetAIOwner()->GetPawn());
 
     if (Wraith == nullptr)
     {
