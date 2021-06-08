@@ -90,6 +90,16 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\GameModes\\\\CaptureTheFlag.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\GameModes\\\\CaptureTheFlag.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
 		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\GameModes\\\\KillAllGameMode.cpp",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
@@ -121,6 +131,16 @@
 	},
 	{
 		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\republic_commandoGameModeBase.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\UI\\\\CharacterSelect.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\UI\\\\CharacterSelect.h",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_Default\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},

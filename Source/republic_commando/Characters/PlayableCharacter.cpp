@@ -16,7 +16,6 @@ void APlayableCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	PauseMenu = CreateWidget(Cast<APlayerController>(GetController()), PauseMenuClass);
 	APlayerController *PlayerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 	PlayerController->SetInputMode(FInputModeGameOnly());
 	Health = MaxHealth;
@@ -45,6 +44,7 @@ void APlayableCharacter::SetupPlayerInputComponent(UInputComponent *PlayerInputC
 
 void APlayableCharacter::Pause()
 {
+	PauseMenu = CreateWidget(Cast<APlayerController>(GetController()), PauseMenuClass);
 	if (PauseMenu != nullptr)
 	{
 		APlayerController *PlayerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);

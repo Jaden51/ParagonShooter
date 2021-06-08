@@ -5,6 +5,6 @@ void ARevenant::Shoot()
 {
     Super::Shoot();
 
-    UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GetMesh(), TEXT("Muzzle_02"));
-    UGameplayStatics::SpawnSoundAttached(MuzzleSound, GetMesh(), TEXT("Muzzle_02"));
+    UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GetMesh(), TEXT("FX_Gun_Barrel"));
+    UGameplayStatics::SpawnSoundAttached(MuzzleSound, GetMesh(), TEXT("FX_Gun_Barrel"));
 }

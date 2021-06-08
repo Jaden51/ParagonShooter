@@ -28,7 +28,6 @@ public:
 	void RemoveHUD();
 
 private:
-
 	void UpdateState();
 
 	UPROPERTY(meta = (BindWidget))
