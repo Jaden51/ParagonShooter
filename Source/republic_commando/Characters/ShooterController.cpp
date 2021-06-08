@@ -1,6 +1,9 @@
 #include "ShooterController.h"
 #include "TimerManager.h"
 #include "Blueprint/UserWidget.h"
+#include "Kismet/GameplayStatics.h"
+#include "GameFramework/Character.h"
+#include "../Characters/PlayableCharacter.h"
 
 void AShooterController::BeginPlay()
 {
@@ -11,6 +14,12 @@ void AShooterController::BeginPlay()
     {
         HUD->AddToViewport();
     }
+}
+
+void AShooterController::SpawnCharacter_Implementation(TSubclassOf<ACharacter> CharacterClass, FTransform Transform)
+{
+    ACharacter* Char = GetWorld()->SpawnActor<ACharacter>(CharacterClass, Transform, FActorSpawnParameters());
+    Possess(Char);
 }
 
 void AShooterController::GameHasEnded(class AActor *EndGameFocus, bool bIsWinner)

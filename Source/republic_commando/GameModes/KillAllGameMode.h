@@ -2,6 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "../republic_commandoGameModeBase.h"
+#include "ShooterGameInstance.h"
 #include "KillAllGameMode.generated.h"
 
 /**
@@ -13,8 +14,17 @@ class REPUBLIC_COMMANDO_API AKillAllGameMode : public Arepublic_commandoGameMode
 	GENERATED_BODY()
 
 public:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
 	virtual void PawnKilled(APawn *PawnKilled) override;
 
-private:
 	void EndGame(bool bIsWinner);
+
+private:
+	FTransform SpawnTransform;
+
+	UShooterGameInstance *GameInst;
+
+	TSubclassOf<ACharacter> ClassToSpawn;
 };
