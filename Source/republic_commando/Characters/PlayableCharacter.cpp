@@ -32,11 +32,13 @@ void APlayableCharacter::SetupPlayerInputComponent(UInputComponent *PlayerInputC
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	// Mobility
 	PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &APlayableCharacter::MoveForward);
 	PlayerInputComponent->BindAxis(TEXT("MoveSide"), this, &APlayableCharacter::MoveSide);
 	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &APlayableCharacter::LookUp);
 	PlayerInputComponent->BindAxis(TEXT("LookSide"), this, &APlayableCharacter::LookSide);
 
+	// Basic actions
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Shoot"), EInputEvent::IE_Pressed, this, &APlayableCharacter::Shoot);
 	PlayerInputComponent->BindAction(TEXT("Pause"), EInputEvent::IE_Pressed, this, &APlayableCharacter::Pause);
@@ -58,6 +60,7 @@ void APlayableCharacter::Pause()
 void APlayableCharacter::MoveForward(float AxisValue)
 {
 	AddMovementInput(GetActorForwardVector() * AxisValue);
+	
 }
 
 void APlayableCharacter::MoveSide(float AxisValue)

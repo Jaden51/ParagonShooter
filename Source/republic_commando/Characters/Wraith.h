@@ -1,5 +1,3 @@
-
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -16,4 +14,14 @@ class REPUBLIC_COMMANDO_API AWraith : public APlayableCharacter
 
 public:
 	void Shoot() override;
+
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent *PlayerInputComponent) override;
+
+	virtual void QAbility();
+	virtual void QAbilityReleased();
+
+private:
+	UPROPERTY(EditAnywhere)
+	UAnimationAsset *QAbilityAnimation;
 };
