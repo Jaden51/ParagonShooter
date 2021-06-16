@@ -18,10 +18,24 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent *PlayerInputComponent) override;
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void ComboSave();
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void ResetCombo();
+
+	void SwitchCase();
+
 	virtual void QAbility();
-	virtual void QAbilityReleased();
 
 private:
 	UPROPERTY(EditAnywhere)
-	UAnimationAsset *QAbilityAnimation;
+	UAnimMontage *FireMontage;
+
+	UPROPERTY(EditAnywhere)
+	UAnimMontage *QAbilityAnimation;
+
+	bool IsAttacking = false;
+	bool SaveAttack;
+	int AttackCount;
 };
