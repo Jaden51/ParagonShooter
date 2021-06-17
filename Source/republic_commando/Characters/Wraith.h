@@ -24,8 +24,6 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	void ResetCombo();
 
-	void SwitchCase();
-
 	virtual void QAbility();
 
 private:
@@ -33,9 +31,13 @@ private:
 	UAnimMontage *FireMontage;
 
 	UPROPERTY(EditAnywhere)
-	UAnimMontage *QAbilityAnimation;
+	UAnimMontage *QAbilityMontage;
+
+	UPROPERTY(EditAnywhere)
+	UParticleSystem *SniperFlash;
+	UPROPERTY(EditAnywhere)
+	UParticleSystem *SniperTrailSmoke;
 
 	bool IsAttacking = false;
 	bool SaveAttack;
-	int AttackCount;
 };
