@@ -40,7 +40,6 @@ void APlayableCharacter::SetupPlayerInputComponent(UInputComponent *PlayerInputC
 
 	// Basic actions
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
-	PlayerInputComponent->BindAction(TEXT("Shoot"), EInputEvent::IE_Pressed, this, &APlayableCharacter::Shoot);
 	PlayerInputComponent->BindAction(TEXT("Pause"), EInputEvent::IE_Pressed, this, &APlayableCharacter::Pause);
 }
 
@@ -60,7 +59,6 @@ void APlayableCharacter::Pause()
 void APlayableCharacter::MoveForward(float AxisValue)
 {
 	AddMovementInput(GetActorForwardVector() * AxisValue);
-	
 }
 
 void APlayableCharacter::MoveSide(float AxisValue)
@@ -78,7 +76,7 @@ void APlayableCharacter::LookSide(float AxisValue)
 	AddControllerYawInput(AxisValue);
 }
 
-void APlayableCharacter::Shoot()
+void APlayableCharacter::Shoot(float Damage)
 {
 	if (GetController() == nullptr)
 		return;
@@ -93,7 +91,7 @@ void APlayableCharacter::Shoot()
 
 		if (Hit.GetActor() != nullptr)
 		{
-			FPointDamageEvent DamageEvent(Damage, Hit, Rotation.Vector() * -1, nullptr);
+			FPointDamageEvent DamageEvent = FPointDamageEvent(Damage, Hit, Rotation.Vector() * -1, nullptr);
 			Hit.GetActor()->TakeDamage(Damage, DamageEvent, GetController(), this);
 		}
 	}

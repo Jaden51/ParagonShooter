@@ -24,7 +24,7 @@ public:
 	UFUNCTION(BlueprintPure)
 	float GetHealthPercent() const;
 
-	virtual void Shoot();
+	virtual void Shoot(float Damage);
 
 	void Pause();
 
@@ -56,9 +56,6 @@ protected:
 
 	UPROPERTY(EditAnywhere)
 	float MaxRange = 100000;
-
-	UPROPERTY(EditAnywhere)
-	float Damage = 10;
 
 	UPROPERTY(EditAnywhere)
 	float MaxHealth = 100;

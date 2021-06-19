@@ -13,5 +13,12 @@ class REPUBLIC_COMMANDO_API ARevenant : public APlayableCharacter
 	GENERATED_BODY()
 
 public:
-	void Shoot() override;
+	void Shoot();
+
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent *PlayerInputComponent) override;
+
+private:
+	UPROPERTY(EditAnywhere)
+	float BasicAttackDamage = 50;
 };

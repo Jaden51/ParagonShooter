@@ -13,7 +13,7 @@ class REPUBLIC_COMMANDO_API AWraith : public APlayableCharacter
 	GENERATED_BODY()
 
 public:
-	void Shoot() override;
+	void Shoot();
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent *PlayerInputComponent) override;
@@ -29,6 +29,8 @@ public:
 private:
 	UPROPERTY(EditAnywhere)
 	UAnimMontage *FireMontage;
+	UPROPERTY(EditAnywhere)
+	float BasicAttackDamage = 25;
 
 	UPROPERTY(EditAnywhere)
 	UAnimMontage *QAbilityMontage;
@@ -37,6 +39,8 @@ private:
 	UParticleSystem *SniperFlash;
 	UPROPERTY(EditAnywhere)
 	UParticleSystem *SniperTrailSmoke;
+	UPROPERTY(EditAnywhere)
+	float SniperDamage = 0;
 
 	bool IsAttacking = false;
 	bool SaveAttack;

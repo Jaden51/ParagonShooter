@@ -7,7 +7,7 @@ void AWraith::Shoot()
     if (IsAttacking)
         return;
 
-    Super::Shoot();
+    Super::Shoot(BasicAttackDamage);
 
     IsAttacking = true;
 
@@ -36,6 +36,7 @@ void AWraith::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
 {
     Super::SetupPlayerInputComponent(PlayerInputComponent);
     // Abilities
+    PlayerInputComponent->BindAction(TEXT("Shoot"), EInputEvent::IE_Pressed, this, &AWraith::Shoot);
     PlayerInputComponent->BindAction(TEXT("QAbility"), EInputEvent::IE_Pressed, this, &AWraith::QAbility);
 }
 
@@ -44,7 +45,7 @@ void AWraith::QAbility()
     if (IsAttacking)
         return;
 
-    Super::Shoot();
+    Super::Shoot(SniperDamage);
 
     IsAttacking = true;
 
