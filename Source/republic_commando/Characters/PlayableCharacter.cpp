@@ -147,3 +147,17 @@ float APlayableCharacter::GetHealthPercent() const
 {
 	return Health / MaxHealth;
 }
+
+void APlayableCharacter::ComboSave_Implementation()
+{
+    if (SaveAttack)
+    {
+        SaveAttack = false;
+    }
+}
+
+void APlayableCharacter::ResetCombo_Implementation()
+{
+    SaveAttack = false;
+    IsAttacking = false;
+}

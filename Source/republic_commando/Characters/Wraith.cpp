@@ -1,6 +1,5 @@
 #include "Wraith.h"
 #include "Kismet/GameplayStatics.h"
-#include "Animation/AnimInstance.h"
 
 void AWraith::Shoot()
 {
@@ -15,21 +14,6 @@ void AWraith::Shoot()
 
     UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GetMesh(), TEXT("Muzzle_01"));
     UGameplayStatics::SpawnSoundAttached(MuzzleSound, GetMesh(), TEXT("Muzzle_01"));
-}
-
-void AWraith::ComboSave_Implementation()
-{
-    if (SaveAttack)
-    {
-        SaveAttack = false;
-        PlayAnimMontage(FireMontage);
-    }
-}
-
-void AWraith::ResetCombo_Implementation()
-{
-    SaveAttack = false;
-    IsAttacking = false;
 }
 
 void AWraith::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)

@@ -28,6 +28,7 @@ EBTNodeResult::Type UBTTaskShoot::ExecuteTask(UBehaviorTreeComponent &OwnerComp,
     {
         ARevenant *Revenant = Cast<ARevenant>(OwnerComp.GetAIOwner()->GetPawn());
         Revenant->Shoot();
+        Revenant->ResetCombo();
     }
 
     return EBTNodeResult::Succeeded;

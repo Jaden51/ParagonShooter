@@ -20,5 +20,7 @@ public:
 
 private:
 	UPROPERTY(EditAnywhere)
+	UAnimMontage *RevolverRecoil;
+	UPROPERTY(EditAnywhere)
 	float BasicAttackDamage = 50;
 };

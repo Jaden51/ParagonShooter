@@ -41,6 +41,11 @@ public:
 	void MoveSide(float AxisValue);
 	void LookSide(float AxisValue);
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void ComboSave();
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void ResetCombo();
+
 protected:
 	UPROPERTY(EditAnywhere)
 	UParticleSystem *MuzzleFlash;
@@ -67,6 +72,9 @@ protected:
 	bool Dead = false;
 
 	bool GunTrace(FHitResult &Hit, FRotator &Rotation);
+
+	bool IsAttacking = false;
+	bool SaveAttack;
 
 private:
 	UPROPERTY(EditAnywhere)

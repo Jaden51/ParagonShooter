@@ -18,12 +18,6 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent *PlayerInputComponent) override;
 
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-	void ComboSave();
-
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-	void ResetCombo();
-
 	virtual void QAbility();
 
 private:
@@ -34,14 +28,10 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	UAnimMontage *QAbilityMontage;
-
 	UPROPERTY(EditAnywhere)
 	UParticleSystem *SniperFlash;
 	UPROPERTY(EditAnywhere)
 	UParticleSystem *SniperTrailSmoke;
 	UPROPERTY(EditAnywhere)
 	float SniperDamage = 0;
-
-	bool IsAttacking = false;
-	bool SaveAttack;
 };
