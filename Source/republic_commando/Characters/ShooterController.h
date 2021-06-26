@@ -17,7 +17,6 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	void SpawnCharacter(TSubclassOf<ACharacter> CharacterClass, FTransform Transform);
 
-
 protected:
 	virtual void BeginPlay() override;
 

@@ -161,3 +161,8 @@ void APlayableCharacter::ResetCombo_Implementation()
     SaveAttack = false;
     IsAttacking = false;
 }
+
+int32 APlayableCharacter::GetAmmo() const
+{
+	return Ammo;
+}

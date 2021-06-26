@@ -15,6 +15,8 @@ class REPUBLIC_COMMANDO_API ARevenant : public APlayableCharacter
 public:
 	void Shoot();
 
+	void Reload();
+
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent *PlayerInputComponent) override;
 

@@ -3,17 +3,22 @@
 
 void ARevenant::Shoot()
 {
-    if (IsAttacking)
-        return;
+    if (Ammo != 0)
+    {
+        if (IsAttacking)
+            return;
 
-    Super::Shoot(BasicAttackDamage);
+        Super::Shoot(BasicAttackDamage);
 
-    IsAttacking = true;
+        IsAttacking = true;
 
-    PlayAnimMontage(RevolverRecoil);
+        PlayAnimMontage(RevolverRecoil);
 
-    UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GetMesh(), TEXT("FX_Gun_Barrel"));
-    UGameplayStatics::SpawnSoundAttached(MuzzleSound, GetMesh(), TEXT("FX_Gun_Barrel"));
+        UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GetMesh(), TEXT("FX_Gun_Barrel"));
+        UGameplayStatics::SpawnSoundAttached(MuzzleSound, GetMesh(), TEXT("FX_Gun_Barrel"));
+
+        Ammo--;
+    }
 }
 
 void ARevenant::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
@@ -21,4 +26,10 @@ void ARevenant::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
     Super::SetupPlayerInputComponent(PlayerInputComponent);
     // Abilities
     PlayerInputComponent->BindAction(TEXT("Shoot"), EInputEvent::IE_Pressed, this, &ARevenant::Shoot);
+    PlayerInputComponent->BindAction(TEXT("Reload"), EInputEvent::IE_Pressed, this, &ARevenant::Reload);
+}
+
+void ARevenant::Reload()
+{
+    Ammo = 4;
 }

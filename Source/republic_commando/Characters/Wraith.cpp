@@ -3,17 +3,22 @@
 
 void AWraith::Shoot()
 {
-    if (IsAttacking)
-        return;
+    if (Ammo != 0)
+    {
+        if (IsAttacking)
+            return;
 
-    Super::Shoot(BasicAttackDamage);
+        Super::Shoot(BasicAttackDamage);
 
-    IsAttacking = true;
+        IsAttacking = true;
 
-    PlayAnimMontage(FireMontage, 2);
+        PlayAnimMontage(FireMontage, 2);
 
-    UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GetMesh(), TEXT("Muzzle_01"));
-    UGameplayStatics::SpawnSoundAttached(MuzzleSound, GetMesh(), TEXT("Muzzle_01"));
+        UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GetMesh(), TEXT("Muzzle_01"));
+        UGameplayStatics::SpawnSoundAttached(MuzzleSound, GetMesh(), TEXT("Muzzle_01"));
+
+        Ammo--;
+    }
 }
 
 void AWraith::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
@@ -22,6 +27,7 @@ void AWraith::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
     // Abilities
     PlayerInputComponent->BindAction(TEXT("Shoot"), EInputEvent::IE_Pressed, this, &AWraith::Shoot);
     PlayerInputComponent->BindAction(TEXT("QAbility"), EInputEvent::IE_Pressed, this, &AWraith::QAbility);
+    PlayerInputComponent->BindAction(TEXT("Reload"), EInputEvent::IE_Pressed, this, &AWraith::Reload);
 }
 
 void AWraith::QAbility()
@@ -38,4 +44,9 @@ void AWraith::QAbility()
     UGameplayStatics::SpawnEmitterAttached(SniperFlash, GetMesh(), TEXT("Muzzle_01"));
     UGameplayStatics::SpawnEmitterAttached(SniperTrailSmoke, GetMesh(), TEXT("Muzzle_01"));
     UGameplayStatics::SpawnSoundAttached(MuzzleSound, GetMesh(), TEXT("Muzzle_01"));
+}
+
+void AWraith::Reload()
+{
+    Ammo = 10;
 }

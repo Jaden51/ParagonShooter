@@ -22,6 +22,9 @@ public:
 	bool IsDead() const;
 
 	UFUNCTION(BlueprintPure)
+	int32 GetAmmo() const;
+
+	UFUNCTION(BlueprintPure)
 	float GetHealthPercent() const;
 
 	virtual void Shoot(float Damage);
@@ -75,6 +78,9 @@ protected:
 
 	bool IsAttacking = false;
 	bool SaveAttack;
+
+	UPROPERTY(EditAnywhere)
+	int32 Ammo;
 
 private:
 	UPROPERTY(EditAnywhere)
