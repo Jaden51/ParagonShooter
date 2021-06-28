@@ -48,5 +48,11 @@ void AWraith::QAbility()
 
 void AWraith::Reload()
 {
+    if (IsAttacking)
+        return;
+
+    IsAttacking = true;
+    
+    PlayAnimMontage(ReloadAnim);
     Ammo = 10;
 }

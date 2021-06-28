@@ -23,6 +23,8 @@ public:
 
 	UFUNCTION(BlueprintPure)
 	int32 GetAmmo() const;
+	UFUNCTION(BlueprintPure)
+	int32 GetMaxAmmo() const;
 
 	UFUNCTION(BlueprintPure)
 	float GetHealthPercent() const;
@@ -67,7 +69,6 @@ protected:
 
 	UPROPERTY(EditAnywhere)
 	float MaxHealth = 100;
-
 	UPROPERTY(VisibleAnywhere)
 	float Health;
 
@@ -80,7 +81,10 @@ protected:
 	bool SaveAttack;
 
 	UPROPERTY(EditAnywhere)
+	int32 MaxAmmo;
 	int32 Ammo;
+	UPROPERTY(EditAnywhere)
+	UAnimMontage *ReloadAnim;
 
 private:
 	UPROPERTY(EditAnywhere)

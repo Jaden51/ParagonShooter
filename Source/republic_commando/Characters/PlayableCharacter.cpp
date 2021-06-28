@@ -19,6 +19,7 @@ void APlayableCharacter::BeginPlay()
 	APlayerController *PlayerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 	PlayerController->SetInputMode(FInputModeGameOnly());
 	Health = MaxHealth;
+	Ammo = MaxAmmo;
 }
 
 // Called every frame
@@ -165,4 +166,9 @@ void APlayableCharacter::ResetCombo_Implementation()
 int32 APlayableCharacter::GetAmmo() const
 {
 	return Ammo;
+}
+
+int32 APlayableCharacter::GetMaxAmmo() const
+{
+	return MaxAmmo;
 }

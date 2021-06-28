@@ -31,5 +31,11 @@ void ARevenant::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
 
 void ARevenant::Reload()
 {
+    if (IsAttacking)
+        return;
+    
+    IsAttacking = true;
+
+    PlayAnimMontage(ReloadAnim);
     Ammo = 4;
 }
