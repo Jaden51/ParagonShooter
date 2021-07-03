@@ -15,14 +15,10 @@ void UBTServicePlayerLocationIfSeen::TickNode(UBehaviorTreeComponent &OwnerComp,
     APawn *PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
 
     if (PlayerPawn == nullptr)
-    {
         return;
-    }
 
     if (OwnerComp.GetAIOwner() == nullptr)
-    {
         return;
-    }
 
     if (OwnerComp.GetAIOwner()->LineOfSightTo(PlayerPawn))
     {

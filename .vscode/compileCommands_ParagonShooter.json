@@ -10,6 +10,26 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTDecoratorOutOfAmmo.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTDecoratorOutOfAmmo.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTServiceGetAmmo.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTServiceGetAmmo.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
 		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTServicePlayerLocation.cpp",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
@@ -36,6 +56,16 @@
 	},
 	{
 		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskClearBlackBoardValue.h",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskReload.cpp",
+		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\coding-projects\\\\C++\\\\ParagonShooter\\\\Source\\\\republic_commando\\\\AI\\\\BTTaskReload.h",
 		"command": "cl.exe @\"D:\\coding-projects\\C++\\ParagonShooter\\.vscode\\compileCommands_ParagonShooter\\republic_commando.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
