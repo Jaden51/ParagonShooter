@@ -18,8 +18,18 @@ EBTNodeResult::Type UBTTaskReload::ExecuteTask(UBehaviorTreeComponent &OwnerComp
         return EBTNodeResult::Failed;
     }
 
-    ARevenant *Revenant = Cast<ARevenant>(OwnerComp.GetAIOwner()->GetPawn());
-    Revenant->Reload();
+    if (Cast<AWraith>(OwnerComp.GetAIOwner()->GetPawn()) != nullptr)
+    {
+        AWraith *Wraith = Cast<AWraith>(OwnerComp.GetAIOwner()->GetPawn());
+        Wraith->Reload();
+        Wraith->ResetCombo();
+    }
+    else
+    {
+        ARevenant *Revenant = Cast<ARevenant>(OwnerComp.GetAIOwner()->GetPawn());
+        Revenant->Reload();
+        Revenant->ResetCombo();
+    }
 
     return EBTNodeResult::Succeeded;
 }
